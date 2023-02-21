@@ -1,0 +1,120 @@
+{
+  "contact": [
+    {
+      "name": "thang",
+      "email": "thang@gmail.com",
+      "note": "toi khong thich ban",
+      "id": 2
+    }
+  ],
+  "portfolio": [
+    {
+      "name": "Slider Using HTML CSS and JAVACRIPT",
+      "images": [
+        "https://res.cloudinary.com/dnywbghd0/image/upload/v1676959735/ECMA/ucdtionpoif6ze6mg8qy.png"
+      ],
+      "desc": "If you're looking to create a simple but effective image slider on your website or blog, then this video is for you! We'll show you how to create a slider using HTML, CSS and JavaScript, and then walk you through the steps step by step. If you're new to HTML, CSS and JavaScript, then this video is a great place to start",
+      "time": "1h",
+      "github": "https://project1-one-green.vercel.app/",
+      "feedback": "⭐⭐⭐⭐⭐",
+      "language": "HTML,CSS AND JAVACRIPT",
+      "id": 1
+    },
+    {
+      "name": "Shopping Cart using HTML CSS and Javascript",
+      "images": [
+        "https://res.cloudinary.com/dnywbghd0/image/upload/v1676960628/ECMA/eibd20agpfgehdasbxib.png"
+      ],
+      "desc": "If you're looking to create a simple but effective image slider on your website or blog, then this video is for you! We'll show you how to create a slider using HTML, CSS and JavaScript, and then walk you through the steps step by step. If you're new to HTML, CSS and JavaScript, then this video is a great place to start",
+      "time": "1h",
+      "github": "https://project2-puce-one.vercel.app/",
+      "feedback": "⭐⭐⭐⭐⭐",
+      "language": "HTML,CSS AND JAVACRIPT",
+      "id": 2
+    }
+  ],
+  "testmonial": [
+    {
+      "id": 1,
+      "name": "Mark Zuckerberg",
+      "images": [
+        "https://res.cloudinary.com/dnywbghd0/image/upload/v1676882249/ECMA/njo8pzhkwyedqpur4e9i.jpg"
+      ],
+      "email": "MarkZuckerberg@gmail.com",
+      "time": "2023-02-20",
+      "note": "You do very well, you have very professional skills but you are very handsome that can affect your career, you deserve a salary of 10000$. Thank you very much. Good luck"
+    },
+    {
+      "id": 2,
+      "name": "Elon Musk",
+      "images": [
+        "https://res.cloudinary.com/dnywbghd0/image/upload/v1676882364/ECMA/am5isue6jbph4ikbagan.jpg"
+      ],
+      "email": "ElonMusk@gmail.com",
+      "time": "2023-02-20",
+      "note": "You do very well, you have very professional skills but you are very handsome that can affect your career, you deserve a salary of 10000$. Thank you very much. Good luck"
+    },
+    {
+      "name": "Do Quang Tung",
+      "images": [
+        "https://res.cloudinary.com/dnywbghd0/image/upload/v1676883291/ECMA/nh2oinxlibgvq8jgsjop.jpg"
+      ],
+      "email": "tung@gmail.com",
+      "time": "2023-02-21",
+      "note": "You do very well, you have very professional skills but you are very handsome that can affect your career, you deserve a salary of 10000$. Thank you very much. Good luck",
+      "id": 3
+    }
+  ],
+  "users": [
+    {
+      "name": "ngoctuyen",
+      "email": "tuyenln@gmail.com",
+      "password": "abc123",
+      "id": 1
+    }
+  ],
+  "navs": [
+    {
+      "id": 1,
+      "name": "Home",
+      "link": "#home"
+    },
+    {
+      "id": 2,
+      "name": "About",
+      "link": "#about"
+    },
+    {
+      "id": 3,
+      "name": "Service",
+      "link": "#service"
+    },
+    {
+      "id": 4,
+      "name": "Portfolio",
+      "link": "#portfolio"
+    },
+    {
+      "id": 5,
+      "name": "Testmonial",
+      "link": "#testmonial"
+    },
+    {
+      "id": 6,
+      "name": "Contact",
+      "link": "#contact"
+    }
+  ],
+  "socialMedia": [
+    {
+      "id": 1,
+      "name": "Youtube update",
+      "link": "https://www.facebook.com/Ngoctuyen137/"
+    },
+    {
+      "name": "Facebook",
+      "link": "https://www.facebook.com/Ngoctuyen137/",
+      "id": 2
+    }
+  ]
+}

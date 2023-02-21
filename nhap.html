@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="bg-gray-200 bg-affter">
+    <div class="container bg-container p-5 shadow-xl">
+      <!-- header -->
+      <header class="flex justify-between p-2 items-center">
+        <div class="">
+          <div class="">
+            <button
+              id="btn-form-login"
+              class="hover:bg-red-600 transition-colors px-5 py-2 shadow-lg bg-red-500 text-white rounded-2xl"
+            >
+              I'm Tuyen
+            </button>
+          </div>
+          <!-- Form Login -->
+          <div
+            id="form-login"
+            class="hidden form-login w-[350px] bg-[#ffffff] p-3 rounded-xl shadow-lg animate"
+          >
+            <div class="absolute right-2 top-2 hover:text-red-500">
+              <button id="btn-close-login">
+                <i class="fas fa-window-close text-3xl"></i>
+              </button>
+            </div>
+            <div class="flex flex-col items-center">
+              <img
+                src="https://images.unsplash.com/photo-1464746133101-a2c3f88e0dd9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1143&q=80"
+                alt=""
+                class="w-[100px] h-[100px] object-cover rounded-full"
+              />
+              <p class="text-center my-3">Luu Ngoc Tuyen</p>
+            </div>
+            <form action="" class="flex flex-col gap-y-4">
+              <div class="flex flex-col gap-y-5">
+                <label for="">User Name</label>
+                <input
+                  type="text"
+                  class="py-2 pl-2 rounded-lg border shadow-lg focus:outline-none focus:border-[#F2921D] focus:ring-1 focus:ring-[#F2921D]"
+                />
+              </div>
+              <div class="flex flex-col gap-y-5">
+                <label for="">Password</label>
+                <input
+                  type="password"
+                  class="py-2 pl-2 rounded-lg border shadow-lg focus:outline-none focus:border-[#F2921D] focus:ring-1 focus:ring-[#F2921D]"
+                />
+              </div>
+              <div class="flex justify-between items-center">
+                <div class="">
+                  <button
+                    class="px-6 py-2 bg-[#F2921D] rounded-xl text-white shadow-lg"
+                  >
+                    Login
+                  </button>
+                </div>
+                <div class="">
+                  <a href="" class="text-blue-500"> Forgot Password? </a>
+                  <a href="" class="text-red-500"> Signup </a>
+                </div>
+              </div>
+            </form>
+          </div>
+          <!-- End Form login -->
+        </div>
+        <div class="">
+          <nav>
+            <a href="" class="px-3 mx-3 py-2 item-nav-effect">Home</a>
+            <a href="" class="px-3 mx-3 py-2 item-nav-effect">About</a>
+            <a href="" class="px-3 mx-3 py-2 item-nav-effect">Service</a>
+            <a href="" class="px-3 mx-3 py-2 item-nav-effect">Portfolio</a>
+            <a href="" class="px-3 mx-3 py-2 item-nav-effect">Testmonial</a>
+            <a href="" class="px-3 mx-3 py-2 item-nav-effect">Contact</a>
+          </nav>
+        </div>
+      </header>
+      <!-- end header -->
+      <!-- introduce yourself -->
+      <section class="flex mt-32 h-[80vh] z-0">
+        <div class="flex-none w-1/2">
+          <div class="text-5xl">
+            Learn new skills online with top educators
+          </div>
+          <div class="text-2xl my-4">
+            Hi! Im Luu Ngoc Tuyen. Im a Font-End Developer
+          </div>
+          <div class="mt-6 flex gap-9">
+            <i class="fa-brands fa-html5 text-5xl text-red-500"></i>
+            <i class="fa-brands fa-css3-alt text-5xl text-blue-500"></i>
+            <i class="fa-brands fa-js text-5xl text-yellow-500"></i>
+            <i class="fa-brands fa-php text-5xl text-purple-500"></i>
+          </div>
+          <div class="mt-12">
+            <button
+              class="bg-[#A31ACB] hover:bg-gradient-to-l hover:from-[#A31ACB] hover:via-fuchsia-400 hover:to-blue-500 p-2 text-white rounded-full transition-all"
+            >
+              Start Learning Today
+            </button>
+            <button
+              class="bg-[#A31ACB] hover:bg-gradient-to-l hover:from-[#A31ACB] hover:via-fuchsia-400 hover:to-blue-500 p-2 text-white rounded-full ml-6 transition-all"
+            >
+              Download CV
+            </button>
+          </div>
+        </div>
+        <div class="grow">
+          <div class="flex justify-between">
+            <div
+              class="blur-sm bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 w-[300px] translate-x-40 border-bg-animation"
+            ></div>
+            <div class="w-[300px]">
+              <img
+                src="./src/image/author.jpg"
+                alt=""
+                class="w-full border-bg-animation -translate-x-20"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end introduce yourself -->
+      <!-- About Me -->
+      <section class="h-[80vh]">
+        <div class="text-center text-3xl text-gray-400">About Me</div>
+        <div class="grid grid-cols-2 w-3/4 mx-auto p-2 mt-12">
+          <div class="w-[300px]">
+            <img
+              src="./src/image/author.jpg"
+              alt=""
+              class="w-full rounded-3xl shadow-lg"
+            />
+          </div>
+          <div class="flex flex-col gap-y-6">
+            <div class="flex justify-between">
+              <!-- item about -->
+              <div class="border p-5 text-center rounded-2xl shadow-md">
+                <i class="fas fa-lightbulb"></i>
+                <p>Experience</p>
+                <p class="text-sm text-[#B2B2B2]">1 + Years</p>
+              </div>
+              <div class="border p-5 text-center rounded-2xl shadow-md">
+                <i class="fas fa-briefcase"></i>
+                <p>Completed</p>
+                <p class="text-sm text-[#B2B2B2]">5 Projects</p>
+              </div>
+              <div class="border p-5 text-center rounded-2xl shadow-md">
+                <i class="fas fa-headphones"></i>
+                <p>Subport</p>
+                <p class="text-sm text-[#B2B2B2]">Online 24/7</p>
+              </div>
+              <!-- end item about -->
+            </div>
+            <div class="">
+              <p>
+                Font End Developer, I create pages witch UI/UX user interface,
+                I have years of experience and many clients are happy with the
+                projects carried out.
+              </p>
+            </div>
+            <div class="">
+              <button
+                class="bg-[#A31ACB] hover:bg-gradient-to-r hover:from-[#A31ACB] hover:via-fuchsia-400 hover:to-blue-500 px-5 py-2 rounded-2xl text-white transition-all"
+              >
+                Download CV
+                <i class="fa-solid fa-download"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end about me -->
+      <!-- Service -->
+      <section class="h-[80vh]">
+        <div class="flex flex-col gap-y-6 items-center my-6">
+          <div class="text-3xl text-gray-400">Service</div>
+          <div class="text-3xl font-medium">What I Do</div>
+          <div class="w-[50vw] text-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+            perferendis veniam perspiciatis culpa mollitia, nemo iste aliquid
+            autem numquam vero deserunt corrupti odit quos accusamus adipisci
+            alias expedita impedit quas.
+          </div>
+        </div>
+        <div
+          class="grid grid-cols-4 gap-x-12 text-center item-service-mother"
+        >
+          <!-- Item Service -->
+          <div
+            class="border-2 border-gray-300 p-12 flex flex-col gap-y-6 shadow-lg item-service-children1"
+          >
+            <div class="">
+              <i class="fas fa-crown text-2xl"></i>
+            </div>
+            <div class="">UX/UI Design</div>
+          </div>
+          <div
+            class="border-2 border-gray-300 p-12 flex flex-col gap-y-6 shadow-lg item-service-children2"
+          >
+            <div class="">
+              <i class="fas fa-desktop text-2xl"></i>
+            </div>
+            <div class="">Web Design</div>
+          </div>
+          <div
+            class="border-2 border-gray-300 p-12 flex flex-col gap-y-6 shadow-lg item-service-children3"
+          >
+            <div class="">
+              <i class="fas fa-mobile-android-alt text-2xl"></i>
+            </div>
+            <div class="">App Design</div>
+          </div>
+          <div
+            class="border-2 border-gray-300 p-12 flex flex-col gap-y-6 shadow-lg item-service-children4"
+          >
+            <div class="">
+              <i class="fas fa-signal text-2xl"></i>
+            </div>
+            <div class="">SEO</div>
+          </div>
+          <!-- End Item Service -->
+        </div>
+      </section>
+      <!-- End Service -->
+      <!-- Portfolio -->
+      <section class="h-[80vh]">
+        <div class="flex flex-col gap-y-6 items-center my-6">
+          <div class="text-3xl text-gray-400">Portfolio</div>
+          <div class="text-3xl font-medium">Check My Wonderful Works</div>
+          <div class="w-[50vw] text-center">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem
+            omnis nihil quo impedit optio dolorem, minus, autem architecto
+            nisi aspernatur vitae sequi iste ducimus exercitationem
+            reiciendis. Consequatur omnis sint dolor.
+          </div>
+        </div>
+        <!-- Item Portfolio -->
+        <div class="grid grid-cols-4 gap-x-6">
+          <div class="link-portfolio-mother">
+            <div class="">
+              <img
+                src="https://images.unsplash.com/photo-1675079798054-cb6411b47829?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80"
+                alt=""
+                class="rounded-2xl"
+              />
+            </div>
+            <div class="link-portfolio-children rounded-2xl">
+              <div
+                class="boreder w-12 h-12 bg-red-500 flex justify-center items-center rounded-full text-white"
+              >
+                <i class="fas fa-search"></i>
+              </div>
+              <div
+                class="boreder w-12 h-12 bg-red-500 flex justify-center items-center rounded-full text-white"
+              >
+                <a href="">
+                  <i class="fas fa-link"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="link-portfolio-mother">
+            <div class="">
+              <img
+                src="https://images.unsplash.com/photo-1675079798054-cb6411b47829?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80"
+                alt=""
+                class="rounded-2xl"
+              />
+            </div>
+            <div class="link-portfolio-children rounded-2xl">
+              <div
+                class="boreder w-12 h-12 bg-red-500 flex justify-center items-center rounded-full text-white"
+              >
+                <i class="fas fa-search"></i>
+              </div>
+              <div
+                class="boreder w-12 h-12 bg-red-500 flex justify-center items-center rounded-full text-white"
+              >
+                <a href="">
+                  <i class="fas fa-link"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="link-portfolio-mother">
+            <div class="">
+              <img
+                src="https://images.unsplash.com/photo-1675079798054-cb6411b47829?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80"
+                alt=""
+                class="rounded-2xl"
+              />
+            </div>
+            <div class="link-portfolio-children rounded-2xl">
+              <div
+                class="boreder w-12 h-12 bg-red-500 flex justify-center items-center rounded-full text-white"
+              >
+                <i class="fas fa-search"></i>
+              </div>
+              <div
+                class="boreder w-12 h-12 bg-red-500 flex justify-center items-center rounded-full text-white"
+              >
+                <a href="">
+                  <i class="fas fa-link"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="link-portfolio-mother">
+            <div class="">
+              <img
+                src="https://images.unsplash.com/photo-1675079798054-cb6411b47829?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80"
+                alt=""
+                class="rounded-2xl"
+              />
+            </div>
+            <div class="link-portfolio-children rounded-2xl">
+              <div
+                class="boreder w-12 h-12 bg-red-500 flex justify-center items-center rounded-full text-white"
+              >
+                <i class="fas fa-search"></i>
+              </div>
+              <div
+                class="boreder w-12 h-12 bg-red-500 flex justify-center items-center rounded-full text-white"
+              >
+                <a href="">
+                  <i class="fas fa-link"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Item Portfolio -->
+      </section>
+      <!-- End Portfolio -->
+      <!-- Testmonial -->
+      <section class="h-[100vh]">
+        <div class="flex flex-col gap-y-6 items-center my-6">
+          <div class="text-3xl text-gray-400">Testmonial</div>
+          <div class="text-3xl font-medium">What People Say About Me</div>
+          <div class="w-[50vw] text-center">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore,
+            excepturi qui sit veritatis assumenda voluptas ullam quae! Autem
+            officia, veniam quasi repellat saepe sunt culpa veritatis
+            aspernatur amet, quisquam earum?
+          </div>
+        </div>
+        <!-- Item slick -->
+        <div class="Item-slick">
+          <div class="rounded-2xl p-3 slick-children border">
+            <div class="">
+              <img
+                src="https://images.unsplash.com/photo-1615412704911-55d589229864?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1282&q=80"
+                alt=""
+                class="w-[200px] h-[200px] object-cover rounded-[100%]"
+              />
+            </div>
+            <div class="text-center my-2">
+              <p class="text-2xl font-medium">Luu Ngoc Tuyen</p>
+              <p class="text-[#7F8487]">11:28 PM</p>
+              <p class="text-[#7F8487]">18/2/2023</p>
+            </div>
+            <div class="text-center">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatum ratione obcaecati sint aliquid enim odio sunt
+              molestiae veniam sit tenetur nobis animi maiores dolores, minus
+              ipsum. Explicabo itaque voluptatibus reprehenderit.
+            </div>
+          </div>
+          <div class="rounded-2xl p-3 slick-children border">
+            <div class="">
+              <img
+                src="https://images.unsplash.com/photo-1590926932353-01713ae6848a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1184&q=80"
+                alt=""
+                class="w-[200px] h-[200px] object-cover rounded-[100%]"
+              />
+            </div>
+            <div class="text-center my-2">
+              <p class="text-2xl font-medium">Luu Ngoc Tuyen</p>
+              <p class="text-[#7F8487]">11:28 PM</p>
+              <p class="text-[#7F8487]">18/2/2023</p>
+            </div>
+            <div class="text-center">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatum ratione obcaecati sint aliquid enim odio sunt
+              molestiae veniam sit tenetur nobis animi maiores dolores, minus
+              ipsum. Explicabo itaque voluptatibus reprehenderit.
+            </div>
+          </div>
+          <div class="rounded-2xl p-3 slick-children border">
+            <div class="">
+              <img
+                src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                alt=""
+                class="w-[200px] h-[200px] object-cover rounded-[100%]"
+              />
+            </div>
+            <div class="text-center my-2">
+              <p class="text-2xl font-medium">Luu Ngoc Tuyen</p>
+              <p class="text-[#7F8487]">11:28 PM</p>
+              <p class="text-[#7F8487]">18/2/2023</p>
+            </div>
+            <div class="text-center">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatum ratione obcaecati sint aliquid enim odio sunt
+              molestiae veniam sit tenetur nobis animi maiores dolores, minus
+              ipsum. Explicabo itaque voluptatibus reprehenderit.
+            </div>
+          </div>
+          <div class="rounded-2xl p-3 slick-children border">
+            <div class="">
+              <img
+                src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                alt=""
+                class="w-[200px] h-[200px] object-cover rounded-[100%]"
+              />
+            </div>
+            <div class="text-center my-2">
+              <p class="text-2xl font-medium">Luu Ngoc Tuyen</p>
+              <p class="text-[#7F8487]">11:28 PM</p>
+              <p class="text-[#7F8487]">18/2/2023</p>
+            </div>
+            <div class="text-center">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatum ratione obcaecati sint aliquid enim odio sunt
+              molestiae veniam sit tenetur nobis animi maiores dolores, minus
+              ipsum. Explicabo itaque voluptatibus reprehenderit.
+            </div>
+          </div>
+        </div>
+        <!-- End Item slick -->
+      </section>
+      <!-- End Testmonial -->
+      <!-- Contact -->
+      <section class="p-8 flex flex-col gap-y-12">
+        <div class="flex flex-col gap-y-6 items-center my-6">
+          <div class="text-3xl text-gray-400">Contact For Me</div>
+        </div>
+        <div class="grid grid-cols-2 gap-x-12">
+          <div class="bg-[#ffffff66] h-[500px] p-6 rounded-2xl shadow-lg">
+            <img
+              src="https://images.unsplash.com/photo-1675722132184-3984d48c8ecf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80"
+              alt=""
+              class="h-full w-full object-cover rounded-2xl -translate-x-12 -translate-y-12"
+            />
+          </div>
+          <!-- Form contact -->
+          <div class="bg-[#ffffff66] p-3 rounded-2xl shadow-lg">
+            <form
+              action=""
+              class="flex flex-col gap-y-6 justify-between w-3/4 mx-auto"
+            >
+              <div class="flex flex-col gap-y-5">
+                <label for="">Name</label>
+                <input
+                  type="text"
+                  class="py-2 pl-2 rounded-lg border shadow-lg focus:outline-none focus:border-[#F2921D] focus:ring-1 focus:ring-[#F2921D]"
+                />
+              </div>
+              <div class="flex flex-col gap-y-5">
+                <label for="">Email</label>
+                <input
+                  type="email"
+                  class="py-2 pl-2 rounded-lg border shadow-lg focus:outline-none focus:border-[#F2921D] focus:ring-1 focus:ring-[#F2921D]"
+                />
+              </div>
+              <div class="flex flex-col gap-y-5">
+                <label for="">Content</label>
+                <textarea
+                  name=""
+                  id=""
+                  cols="30"
+                  rows="5"
+                  class="py-2 pl-2 rounded-lg border shadow-lg focus:outline-none focus:border-[#F2921D] focus:ring-1 focus:ring-[#F2921D]"
+                ></textarea>
+              </div>
+              <div class="">
+                <button class="py-2 px-8 bg-[#F2921D] rounded-2xl text-white">
+                  Send
+                </button>
+              </div>
+            </form>
+          </div>
+          <!-- End form contact -->
+        </div>
+      </section>
+      <!-- End Contact -->
+      <!-- Footer -->
+      <footer class="bg-[#FFB84C] mt-12 rounded-md">
+        <div class="text-center py-3 text-white">Tuyenlnph20246</div>
+      </footer>
+      <!-- End Footer -->
+    </div>
+  </div>
+</body>
+</html>
